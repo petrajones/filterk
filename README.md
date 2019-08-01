@@ -17,7 +17,7 @@ here. </li>
 <li><b>LOF.py</b> is an implementation of the outlier detection algorithm Local Outlier Factor intended for comparison, which makes use of 
 the SKLEARN library in Python. </li>
 <li><b>IF.py</b> is an implementation of the outlier detection algorithm Isolation Forests intended for comparison, which makes use of 
-the SKLEARN library in Python. </li>
+the SKLEARN library in Python. <a href="https://ieeexplore.ieee.org/document/4781136" target="_new">Isolation Forests</a></li>
 </ul><p>
 
 These scripts have been tested using <a href="https://www.python.org/downloads/release/python-363/" target="_new">Python version 3.6.3</a>. 
