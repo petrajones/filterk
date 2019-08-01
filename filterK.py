@@ -27,9 +27,6 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.neighbors import BallTree
 
-import os, datetime, time 
-clock = time.time()
-
 def kMeansModel(X, nClust=10):
     """
     filterKModel creates model with saved feature preprocessing and k-means
@@ -213,12 +210,6 @@ def filterK(X, Y, model, pdc=90, pnd=90, Nmin=5, Nmin0=1, debugPrint=False):
     total_subscore3 = normalise_subscore3*0.34
     outlier_score = total_subscore1+total_subscore2+total_subscore3
 
-    print("{{{{{{{{{{}}}}}}}}}}")
-    print("\r")
-    from sklearn import metrics
-    print("Silhouette Score") 
-    #print(metrics.silhouette_score(X[~mask_outliers], y_pred[~mask_outliers], metric='euclidean'))
-
     return [mask_outliers, y_pred, epsilon_dist, nearest_cluster_dist,\
             mean_neighbor_dist, eps_neighbors, outlier_score]
 
@@ -287,13 +278,6 @@ def tables(Y, yPred, outliers, model):
     string += ' |  {:5d} |        '.format(np.sum(OLCount))
     print(string)
 
-    """************************************** Return Script Timer ***************************************"""
-    #Calculate script length of time to execute
-    rawTime = (time.time() - clock)
-    finalTime = round(rawTime, 2)
-    minTime = finalTime / 60
-    print("\r--- %s seconds ---" % finalTime)
-    print("\r--- %s minutes ---" % minTime)
 
 
 
