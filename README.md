@@ -15,7 +15,7 @@ k-means</a> clustering algorithm.</li>
 <li><b>testAll.py</b> is a script to run FilterK on development and test CSV files. Please alter the names of your chosen input files 
 here. </li>
 <li><b>LOF.py</b> is an implementation of the outlier detection algorithm Local Outlier Factor intended for comparison, which makes use of 
-the SKLEARN library in Python. </li>
+the SKLEARN library in Python.<a href="https://en.wikipedia.org/wiki/Local_outlier_factor" target="_new">Local Outlier Factor</a> </li>
 <li><b>IF.py</b> is an implementation of the outlier detection algorithm Isolation Forests intended for comparison, which makes use of 
 the SKLEARN library in Python. <a href="https://ieeexplore.ieee.org/document/4781136" target="_new">Isolation Forests</a></li>
 </ul><p>
