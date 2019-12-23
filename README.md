@@ -28,7 +28,8 @@ These scripts have been tested using <a href="https://www.python.org/downloads/r
 <li><a href="https://scikit-learn.org/stable/install.html" target="_new">SKLEARN</a></li>
 <li><a href="https://numpy.org/" target="_new">NUMPY</a></li>
 <li><a href="https://docs.python.org/3/library/pickle.html" target="_new">PICKLE</a></li>
-<li><a href="https://docs.python.org/3/library/csv.html">CSV</a></li>
+<li><a href="https://docs.python.org/3/library/csv.html" target="_new">CSV</a></li>
+<li><a href="https://pyod.readthedocs.io/en/latest/install.html" target="_new">PYOD</li>
 </ul>
 <p>
 
