@@ -18,6 +18,7 @@ here. </li>
 the SKLEARN library in Python. See Breunig et al's paper on the <a href="https://en.wikipedia.org/wiki/Local_outlier_factor" target="_new">Local Outlier Factor</a>.</li>
 <li><b>IF.py</b> is an implementation of the outlier detection algorithm Isolation Forests intended for comparison, which makes use of 
 the SKLEARN library in Python. See Liu et al's paper on <a href="https://ieeexplore.ieee.org/document/4781136" target="_new">Isolation Forests</a>.</li>
+  <li><b>KNN.py</b> is an implementation of the outlier detection algorithm K-Nearest Neighbours which makes use of the <a href="https://pyod.readthedocs.io/en/latest/" target="_new">PYOD Library</a>
 </ul><p>
 
 These scripts have been tested using <a href="https://www.python.org/downloads/release/python-363/" target="_new">Python version 3.6.3</a>. 
